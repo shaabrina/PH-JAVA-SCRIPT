@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffeeee;
+    margin: 0;
+    padding: 0;
+}
+
+#output-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(230, 123, 113);
+}

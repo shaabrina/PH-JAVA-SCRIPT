@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 3 Array</title>
+    <link rel="stylesheet" href="CSS/soal3.css">
+</head>
+<body>
+    <script>
+        // Membuat array negara
+        var NegaraArray = [
+            'Indonesia', 'Jepang', 'Turki', 'Korea', 'Kamboja', 
+            'Malaysia', 'Singapura', 'Timor Leste', 'Filipina', 'Afrika'
+        ];
+
+        // Menampilkan seluruh data di dalam array
+        console.log("Seluruh Data Negara:");
+        for (var i = 0; i < NegaraArray.length; i++) {
+            console.log(i + 1 + ". " + NegaraArray[i]);
+        }
+
+        // Mengakses nilai 'Indonesia' dan menampilkan indeksnya
+        var indeksIndonesia = NegaraArray.indexOf('Indonesia');
+        console.log("\nIndeks 'Indonesia': " + indeksIndonesia);
+
+        // Menambahkan satu data negara dengan push
+        NegaraArray.push('Amerika');
+
+        // Menampilkan data negara setelah penambahan
+        console.log("\nData Negara Setelah Penambahan:");
+        for (var i = 0; i < NegaraArray.length; i++) {
+            console.log(i + 1 + ". " + NegaraArray[i]);
+        }
+    </script>
+</body>
+</html>

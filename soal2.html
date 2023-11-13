@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 2 Fungsi</title>
+    <link rel="stylesheet" href="CSS/soal2.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Kasir</h2>
+        <form id="kasirForm">
+            <label for="kodeBarang">Kode Barang:</label>
+            <input type="text" id="kodeBarang" required>
+
+            <label for="namaBarang">Nama Barang:</label>
+            <input type="text" id="namaBarang" required>
+
+            <label for="harga">Harga Satuan:</label>
+            <input type="number" id="harga" required>
+
+            <label for="jumlah">Jumlah Barang:</label>
+            <input type="number" id="jumlah" required>
+
+            <button type="button" onclick="hitungTotal()">Hitung Total</button>
+            <button type="button" onclick="clearForm()">Clear</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="JS/soal2.js"></script>
+</body>
+</html>

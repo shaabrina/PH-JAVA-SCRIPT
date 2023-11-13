@@ -1,0 +1,37 @@
+/* CSS/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffeeee;
+    margin: 0;
+    padding: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(255, 174, 167);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: rgb(230, 123, 113);
+}
